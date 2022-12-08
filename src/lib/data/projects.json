@@ -1,0 +1,30 @@
+[
+	{
+		"image": "/tidal.png",
+		"title": "Tidal",
+		"description": "Tridal is a web based audio streaming and media services with modern user interface.",
+		"roles": [
+			"Development"
+		],
+		"link": "https://tidal.vercel.app",
+		"tech": [
+			"React.js",
+			"Redux",
+			"Tailwind"
+		]
+	},
+	{
+		"image": "/telenote.png",
+		"title": "Telenote",
+		"description": "Telenote provides users with an easy to use platform for writing, editing, and organizing notes using the popular markdown syntax.",
+		"roles": [
+			"Development"
+		],
+		"link": "https://telenote.vercel.app",
+		"tech": [
+			"React.js",
+			"Supabase",
+			"Tailwind"
+		]
+	}
+]

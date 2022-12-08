@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	/* inter var - latin */
+	@font-face {
+		font-family: 'Arial Narrow', Arial, Helvetica Neue, sans-serif;
+		font-style: normal;
+		font-display: optional;
+	}
+
+	h1 {
+		@apply text-2xl font-bold md:text-4xl;
+	}
+
+	h2 {
+		@apply text-xl font-bold md:text-3xl;
+	}
+
+	h3 {
+		@apply text-lg font-bold md:text-2xl;
+	}
+
+	h4 {
+		@apply text-base font-bold md:text-lg;
+	}
+
+	body {
+		font-family: 'Arial Narrow', Arial, Helvetica Neue, sans-serif;
+		@apply text-lg md:text-xl overflow-x-hidden scroll-smooth;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		@apply bg-slate-50 dark:bg-black text-black dark:text-white;
+	}
+
+	/* pre {
+		@apply text-sm md:text-base text-white bg-black md:max-w-6xl;
+	} */
+
+	strong {
+		@apply text-white;
+	}
+}
+
+h3 {
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.noscroll {
+	overflow-y: hidden !important;
+}
+
+
+
+.prose-xl {
+	pre {
+		@apply text-xs lg:text-base;
+	}
+
+	strong {
+		@apply text-red-600;
+	}
+
+	ol,
+	ul {
+		@apply list-disc;
+	}
+} 
