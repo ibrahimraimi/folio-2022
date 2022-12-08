@@ -5,7 +5,7 @@
 
 	import ScrollDown from './ScrollDown.svelte';
 
-	// export let text: string;
+	export let text: string;
 	let hovered = false;
 </script>
 
@@ -17,7 +17,7 @@
 
 <section class="cursor-crosshair w-full h-[95vh] md:h-screen relative">
 	<div class="titleWrapper text-4xl md:text-6xl lg:text-8xl 2xl:text-9xl uppercase max-w-full">
-		<span class=" md:hidden">Ibrahim Raimi | Web Development | Cpmputer Graphics</span>
+		<span class=" md:hidden">{text}</span>
 	</div>
 
 	<ScrollDown bind:hovered />

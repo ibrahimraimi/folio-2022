@@ -8,7 +8,7 @@
 	//Import projects
 	import projects from '$lib/data/projects.json';
 
-	let text = 'Jason Thompson | Web Development | Design | Graphics';
+	let text = 'Ibrahim Raimi | Creative Developer | Design | Computer Graphics';
 </script>
 
 <!-- <DeviceDetector showInDevice="desktop">
